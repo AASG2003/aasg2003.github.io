@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <!-- meta -->
+      <meta charset="utf-8">
+      <meta name="author" content="Alberto Soria">
+      <meta name="description" content="portafolio de desarollo de Alberto Soria">
+      <meta name="keywords" content="student resources, learning">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- titulo -->
+      <title>Alberto Soria | Desarrollo web Front-end</title>
+      <!-- Favicon -->
+      <link rel="icon" type="image/x-icon" href="images/icono.png">
+      <!-- bootstrap -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+      <!-- bootstrap icons -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+      <!-- css -->
+      <link href="style.css" rel="stylesheet">
+      <!-- Google fonts -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!-- nav bar -->
+    <nav class="navbar navbar-expand-md navbar-light">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarToggler">
+          <a class="navbar-brand" href="#">
+              <img src="images/icono.png" width="50" alt="Logo de la pagina web">
+          </a>
+          <ul class="navbar-nav d-flex justify-content-center align-items-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Communities">Communities</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Resources">Resources</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#News">News</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- section hero -->
+    <section class="hero align-items-stretch">
+      <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+        <img class="hero-imagen-tech rounded-circle" src="images/technology.png" alt = "Tech Logo">
+        <h1>Welcome to Tech World</h1>
+        <h2>For students looking for new skills</h2>
+      </div>
+      <div class="hero-inferior">
+        <img class="hero-inf-image img-fluid"src="images/imageHero-Inferior.png" alt="welcome image">
+      </div>
+    </section>
+
+    <!-- section about -->
+    <section class="about dark-section">
+      <div class="new-container">
+        <h2 class="title-section">About Tech World</h2>
+        <p class="text-section">Tech world is a new page with the objective of giving information and knowledge to 
+          others, in special to students, in this page you are going to find different resources
+          about technology and design, hope you find it useful and welcome to Tech World.
+        </p>
+      </div>
+    </section>
+    
+    <!-- communities -->
+    <section id = "Communities" class="communities section-light">
+      <h2 class="title-section black-text">Communities</h2>
+      <h3 class="description-section">Grow with others</h3>
+      <div class="container text-center">
+        <div class="row">
+          <!-- mlsa -->
+          <div class="resource col-12 col-md-4">
+            <div class="resource new-column">
+              <a href="https://studentambassadors.microsoft.com/"><img class="img-fluid rounded-circle" src="images/mlsaIcon.jpg"></a>
+              <p class="com-title">MLSA</p>
+              <p>Microsoft Learn Student Ambassadors complete activities and make contributions to the community in order to progress through milestones and unlock additional benefits.</p>
+              <div class="badges-container">
+                <span class="badge text-bg-primary">Soft skills</span>
+                <span class="badge text-bg-primary">Technology</span>
+                <span class="badge text-bg-primary">Personal Growing</span>
+              </div>
+            </div>
+          </div>
+          <!-- gdg -->
+          <div class="resource col-12 col-md-4">
+            <div class="resource new-column">
+              <a href="https://developers.google.com/community/gdg"><img class="img-fluid rounded-circle" src="images/gdgIcon.jpg"></a>
+              <p class="com-title">GDG</p>
+              <p>When you join a Google Developer Group, you'll have the opportunity to learn new skills in a variety of formats. You’ll also meet local developers virtually or in-person with similar interests in technology. The community prides itself on being an inclusive environment where everyone and anyone interested in tech - from beginner developers to experienced professionals are welcome to join.</p>
+              <div class="badges-container">
+                <span class="badge text-bg-primary">Soft skills</span>
+                <span class="badge text-bg-primary">Technology</span>
+                <span class="badge text-bg-primary">Personal Growing</span>
+              </div>
+            </div>
+          </div>
+          <!-- mug -->
+          <div class=" resource col-12 col-md-4">
+            <div class="resource new-column">
+              <a href="https://www.facebook.com/microsoftusergroup.bo"><img class="img-fluid rounded-circle" src="images/mugIcon.jpg"></a>
+              <p class="com-title">MUG Bolivia</p>
+              <p>Microsof User Group Bolivia it is a community about tecnology, with the objective to promote and spread expiriences and information between peers.</p>
+              <div class="badges-container">
+                <span class="badge text-bg-primary">Soft skills</span>
+                <span class="badge text-bg-primary">Technology</span>
+                <span class="badge text-bg-primary">Personal Growing</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- resources -->
+    <section id="Resources"class="resent-resources section-light d-flex flex-column">
+      <h2 class="title-section black-text">Resources</h2>
+      <h3 class="description-section">Web Pages and digital material for students</h3>
+      <!-- proyect galery -->
+      <div class="container text-center resources-container">
+        <div class="row">
+
+          <!-- Resource 1 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="resource">
+              <!-- card resource -->
+              <div class="card">
+                <img src="https://rotulosmatesanz.com/wp-content/uploads/2017/09/2000px-Google_G_Logo.svg_.png" class="card-img-top img-fluid" alt="Learn with google image">
+                <div class="card-body">
+                  <h5 class="card-title">Learn the skills of the future with Google</h5>
+                  <p class="card-text">Accelerate your career or business with an online digital skills course in everything from marketing to coding and beyond.</p>
+                  <a href="https://learndigital.withgoogle.com/digitalgarage/" class="btn btn-primary">Learn</a>
+                </div>
+              </div> 
+            </div>
+          </div>
+          
+          <!-- Resource 2 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="resource">
+              <!-- card resource -->
+              <div class="card">
+                <img src="images/skillsForAll.png" class="card-img-top img-fluid" alt="skillsForAll image">
+                <div class="card-body">
+                  <h5 class="card-title">Your window to a
+                    world of opportunity with Cisco.</h5>
+                  <p class="card-text">Skills for All with Cisco. Free online courses backed by Cisco'sexpertise and connected to real career paths.</p>
+                  <a href="https://skillsforall.com/" class="btn btn-primary">Learn</a>
+                </div>
+              </div> 
+            </div>
+          </div>
+
+          <!-- Resource 3 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="resource">
+              <!-- card resource -->
+              <div class="card">
+                <img src="https://play-lh.googleusercontent.com/MoaYYQjGtmGLhG9HbjCDKyj44kwHj1HfbCI2Am70elRm35vJ-u4y4X5uEJjP97MAAsU" class="card-img-top" alt="freecodecamp logo">
+                <div class="card-body">
+                  <h5 class="card-title">Learn to code — for free. Build projects. Earn certifications.</h5>
+                  <p class="card-text">FreeCodeCamp is a community of millions of people around the world who are learning to code together.</p>
+                  <a href="https://www.freecodecamp.org/" class="btn btn-primary">Learn</a>
+                </div>
+              </div> 
+            </div>
+          </div>
+
+          <!-- Resource 4 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="resource">
+              <!-- card resource -->
+              <div class="card">
+                <img src="https://www.microsoft.com/en-gb/home/digital-skills/images/badge-learn-400x400.jpg" class="card-img-top" alt="Microsoft learn image">
+                <div class="card-body">
+                  <h5 class="card-title">Discover your path with Microsoft Learn</h5>
+                  <p class="card-text">Whether you're just starting or an experienced professional, our hands-on approach helps you arrive at your goals faster, with more confidence and at your own pace.</p>
+                  <a href="https://learn.microsoft.com/en-us/training/" class="btn btn-primary">Learn</a>
+                </div>
+              </div> 
+            </div>
+          </div>
+          
+          <!-- Resource 5 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="resource">
+              <!-- card resource -->
+              <div class="card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSM4WKJIFMh0YvR3-cfGwBjIeLUIulReTF1Ig&usqp=CAU" class="card-img-top" alt="Majo notes icon">
+                <div class="card-body">
+                  <h5 class="card-title">Majo's notes, Improve with this useful web page</h5>
+                  <p class="card-text">One of the best resources for a student, Majo's notes had a lot of knowledge about different topics in programming languages, the best explanation only here.</p>
+                  <a href="https://losapuntesdemajo.vercel.app/" class="btn btn-primary">Learn</a>
+                </div>
+              </div> 
+            </div>
+          </div>
+
+          <!-- Resource 6 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="resource">
+              <!-- card resource -->
+              <div class="card">
+                <img src="https://www.elharony.com/wp-content/uploads/2019/08/GitHub-Student-Developer-Pack-21-New-Partners-45000-Value.png" class="card-img-top" alt="github developer pack icon">
+                <div class="card-body">
+                  <h5 class="card-title">GitHub Student Developer Pack</h5>
+                  <p class="card-text">Learn to ship software like a pro. There's no substitute for hands-on experience. But for most students, real world tools can be cost-prohibitive. That's why we created the GitHub Student Developer Pack.</p>
+                  <a href="https://education.github.com/pack" class="btn btn-primary">Visit</a>
+                </div>
+              </div> 
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- news -->
+    <section id="News" class="news justify-content-start">
+      <h2 class="title-section black-text">News</h2>
+      <h3 class="description-section">Lastets news about technology</h3>
+      <div class="card">
+        <div class="card-header">
+          Last News
+        </div>
+        <ul class="list-group list-group-flush">
+          <a href="https://www.facebook.com/photo/?fbid=508846214597704&set=a.451902323625427" target="_blank" rel="nooponer noreferrer">
+            <li class="list-group-item">
+              Prepare your postulation to MLSA program with this
+            </li>
+          </a>
+          <a href="https://www.facebook.com/pyconbolivia/posts/pfbid0i4pM6LM4vcsifCvhhBeuZ4S768mBqMBbPv19jbUQ67ikYEKXuhZkjsvX28GbK1fol" target="_blank" rel="nooponer noreferrer">
+            <li class="list-group-item">
+              Are you ready for PyCon Bolivia 2022? Don't lose this event
+            </li>
+          </a>
+          <a href="https://www.facebook.com/MSFTStudentAmbassadorsLaPaz/posts/pfbid02p31dgLKNb2DhWSVVheYDNaprcQ7PCepAf1FD4KT2tZ2ETh1ZFMRPVQpbsGBk1AEhl target="_blank" rel="nooponer noreferrer">
+            <li class="list-group-item">
+              You are still on time, learn with MLSA - La Paz
+            </li>
+          </a>
+          <a href="https://www.facebook.com/photo/?fbid=508846214597704&set=a.451902323625427" target="_blank" rel="nooponer noreferrer">
+            <li class="list-group-item">
+              Prepare your postulation to MLSA program with this
+            </li>
+          </a>
+          <a href="https://opportunity.linkedin.com/es-es/skills-for-in-demand-jobs" target="_blank" rel="nooponer noreferrer">
+            <li class="list-group-item">
+              Continues growing with this LinkedIn courses
+            </li>
+          </a>
+        </ul>
+      </div>
+    </section>
+
+    <!-- contact -->
+    <section id = "Contact" class="contact dark-section">
+      <div class="container">
+        <div class="container text-center rectangle d-flex justify-content-evenly">
+          <div class="row">
+            <div  class="col-12 col-md-4 title-section">
+              Contact us
+            </div>
+            <div class="col-12 col-md-4 description">
+              Do you have a interesting news or something useful? Tell us
+            </div>
+            <div class="col-12 col-md-4">
+              <a href="mailto: betoxd2003@gmail.com">
+                <button type="button">
+                  Contact
+                  <i class="bi bi-envelope-check-fill"></i>
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- scroll button -->
+
+    <button type="button" class="btn btn-floating btn-lg" id="btn-back-to-top">
+      <i class="bi bi-arrow-up-short"></i>
+    </button>
+    <script>
+      let mybutton = document.getElementById("btn-back-to-top");
+
+      // When the user scrolls down 20px from the top of the document, show the button
+      window.onscroll = function () {
+        scrollFunction();
+      };
+
+      function scrollFunction() {
+        if (
+          document.body.scrollTop > 20 ||
+          document.documentElement.scrollTop > 20
+        ) {
+          mybutton.style.display = "block";
+        } else {
+          mybutton.style.display = "none";
+        }
+      }
+      // When the user clicks on the button, scroll to the top of the document
+      mybutton.addEventListener("click", backToTop);
+
+      function backToTop() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  </body>
+</html>

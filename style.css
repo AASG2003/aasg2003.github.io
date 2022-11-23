@@ -1,0 +1,279 @@
+/* nav bar */
+.navbar{
+    padding: 2rem;
+    background-color: #f5f6f7;
+}
+
+.navbar-collapse{
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+/* General styles */
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    font-size: 2.5rem;
+    font-family: 'Rubik Dirt', cursive;
+}
+
+.dark-section{
+    background-color: #1b1b32;
+    color: white;
+}
+
+.section-light{
+    color: black;
+    background-color: white;
+}
+
+.title-section{
+    font-size: 2rem;
+    padding: 15px 0;
+    font-family: 'Rubik Dirt', cursive;
+}
+
+.description-section{
+    font-size: 1.2rem;
+    color: #584e4e;
+}
+
+.text-section{
+    font-size: 1.2rem;
+}
+
+.black-text{
+    color: black;
+}
+
+.white-text{
+    color: white;
+}
+
+
+/* hero section */
+.hero{
+    background-color: #f5f6f7;
+    min-height: 450px;
+    text-align: center;
+}
+
+.hero-principal{
+    padding: 3rem;
+}
+
+.hero-principal h2{
+    font-size: 1.5rem;
+    color: #615151;
+}
+
+.hero-imagen-tech{
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    /* border-radius: 50%; this is for a circle */
+
+}
+
+
+/* about */
+.about{
+    height: 500px;
+    padding: 10px;
+}
+
+.about .new-container{
+    max-width: 600px;
+    text-align: center;
+}
+
+
+/* communities */
+.communities{
+    padding: 40px 40px 60px 40px;
+}
+
+.communities .new-column{
+    height: 100%;
+    padding: 20px;
+    border: 2px solid #8080804d;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    transition: all 0.2s ease-in;
+}
+
+.communities .new-column:hover{
+    color: white;
+    background-color: #1b1b32;    
+}
+
+.communities img{
+    max-width: 200px;
+}
+
+.com-title{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.communities h1{
+    padding: 20px 20px 40px 20px;
+}
+
+.badges-container{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.badge{
+    margin: 5px;
+}
+
+/* resources */
+
+.resources{
+    padding: 40px;
+}
+
+.resent-resources{
+    padding: 40px;
+}
+.resources-container{
+    padding-top: 60px;
+    margin-bottom: 40px;
+}
+
+.resource{
+    margin-bottom: 20px;
+}
+
+.resource .card{
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    display: block;
+    transition: all 0.2s ease-in;
+}
+
+.resource .card img{
+    max-width: 150px;
+    max-height: 200px;
+    border-radius: 50%;
+}
+
+.resource .card:hover{
+    color: white;
+    background-color: #1b1b32;    
+}
+
+/* news */
+
+.news{
+    min-height: 500px;
+    padding: 30px;
+
+}
+
+.news .card{
+    width: 80%;
+    max-width: 600px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.news li{
+    transition: all 0.2s ease-in;
+}
+
+.news li:hover{
+    color: white;
+    background-color: #1b1b32;  
+}
+
+.news .card-header{
+    font-weight: bold;
+}
+
+/* contact */
+
+.contact .container{
+    max-width: 1100px;
+    min-height: 200px;
+    padding: 20px;
+}
+
+.contact .rectangle{
+    margin-top: -5rem;
+    background-color: rgb(13, 110, 253);
+    border-radius: 10px;
+    box-shadow: 0px 1px 4px 1px white;
+}
+
+.contact .row{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.contact .description{
+    color: white;
+    font-size: 1.2rem;
+}
+
+.contact button{
+    color: white;
+    font-weight: bold;
+    background-color: transparent;
+    border: 2px solid white;
+    pad: 1.25em 2em;
+    margin: 10px;
+    border-radius: 100px;
+    transition: all 0.2s ease-in-out;
+}
+
+.contact button i{
+    color:white;
+    font-size: 1.3rem;
+    transition: all 0.2s ease-in-out;
+}
+
+/* scroll button */
+#btn-back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: -5px;
+    display: none;
+}
+
+button .bi-arrow-up-short{
+    color: white;
+    font-size: 30px;
+    background-color: rgb(0, 153, 255);
+    border-radius: 10%;
+}
+
+
+/* Adaptable (responsive) */
+@media screen and (max-width: 767px) {
+    .navbar-brand{
+        display: none;
+    }
+}
+
+@media screen and (min-width:700px){
+    .hero-inf-image{
+        max-width: 700px;
+    }
+}
